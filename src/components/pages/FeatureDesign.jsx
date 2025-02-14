@@ -21,7 +21,7 @@ const FeatureDesign  = () => {
       <Navbar/>
       <Carousel activeIndex={index} onSelect={handleSelect}>
       <Carousel.Item>
-        <img src={ExampleCarouselImage}/>
+        <img className='featureimg w-100' src={ExampleCarouselImage}/>
         <Carousel.Caption>
           <h3>First slide label</h3>
           <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
