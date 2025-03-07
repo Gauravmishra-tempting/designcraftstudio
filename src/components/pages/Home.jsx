@@ -11,6 +11,7 @@ import Card3 from "../../assets/img/card3.png";
 import Card from 'react-bootstrap/Card';
 import Col from 'react-bootstrap/Col';
 import Image from 'react-bootstrap/Image';
+import Banner from '../../assets/img/HomeBanner.png';
 
 
 
@@ -21,7 +22,7 @@ const [opacity, setOpacity] = useState(1);
 const texts = ["Web Development", "Graphic Design", "Video Editing"];
 const speed = 100;
 const [currentText, setCurrentText] = useState("");
-const [textIndex, setTextIndex] = useState(0); // Current index in the `texts` array
+const [textIndex, setTextIndex] = useState(0); 
 const [charIndex, setCharIndex] = useState(0);
 
 
@@ -62,6 +63,9 @@ useEffect(() => {
     <>
      <Navbar/>
       {/* Banners Section */}
+        <div className="Homebanner">
+          <img src={Banner} alt="homebanner" />
+        </div>
       <section id="banners">
         <div className="container d-flex justify-content-center">
           <div data-aos="zoom-in" data-aos-duration="1500" className="row">
@@ -79,7 +83,7 @@ useEffect(() => {
                 something truly extraordinary.
               </h6>
             </div>
-            <div className="col-lg-6 mt-3">
+            {/* <div className="col-lg-6 mt-3">
               <div data-aos="zoom-in" className="bannerimg">
                 <img
                   src={Bannerimg}
@@ -87,7 +91,7 @@ useEffect(() => {
                   alt="landing-page"
                 />
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </section>
@@ -163,7 +167,7 @@ useEffect(() => {
       <h2 className="text-center text-white mt-5 mb-5">About Us</h2>
       <div className="row">
       <div className="col-sm-4 mb-3">
-        <Card className="shadow-lg border">
+        <Card className="shadow-lg border h-100">
           <Card.Body>
             <Card.Title> Graphic Design </Card.Title>
             <Col xs={6} md={4}>
@@ -180,7 +184,7 @@ useEffect(() => {
         </Card>
         </div>
         <div className="col-sm-4 mb-3">
-        <Card className="shadow-lg">
+        <Card className="shadow-lg h-100">
           <Card.Body>
             <Card.Title> Web Development </Card.Title>
             <Col xs={6} md={4}>
@@ -196,7 +200,7 @@ useEffect(() => {
         </Card>
         </div>
         <div className="col-sm-4 mb-5">
-        <Card className="shadow-lg">
+        <Card className="shadow-lg h-100">
           <Card.Body>
             <Card.Title> Video Editing </Card.Title>
             <Col xs={6} md={4}>
@@ -244,7 +248,7 @@ useEffect(() => {
                   src={Card1}
                   className="card-img-top"
                   height="400"
-                  alt="Card image cap"
+                  alt="Cardimagecap"
                 />
                 <div className="card-body">
                   <h5 className="card-title">Graphic Design</h5>
@@ -267,7 +271,7 @@ useEffect(() => {
                   src={Card2}
                   className="card-img-top"
                   height="400"
-                  alt="Card image cap"
+                  alt="Cardimagecap"
                 />
                 <div className="card-body">
                   <h5 className="card-title">Web Development</h5>
@@ -289,7 +293,7 @@ useEffect(() => {
                   src={Card3}
                   className="card-img-top"
                   height="400"
-                  alt="Card image cap"
+                  alt="Cardimagecap"
                 />
                 <div className="card-body">
                   <h5 className="card-title">Video Editing</h5>
