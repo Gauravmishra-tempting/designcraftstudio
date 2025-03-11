@@ -63,15 +63,12 @@ useEffect(() => {
     <>
      <Navbar/>
       {/* Banners Section */}
+      <section id="HomeBanner">
         <div className="Homebanner">
-          <img src={Banner} alt="homebanner" />
-        </div>
-      <section id="banners">
         <div className="container d-flex justify-content-center">
-          <div data-aos="zoom-in" data-aos-duration="1500" className="row">
-            <div className="col-lg-6 mt-5">
+        <div className="col text-center texttop">
               <h4 className="mt-5">
-                Welcome to <span className="highlight">Creative Workshop</span>
+                Welcome to <span className="highlight">Designcraft Studio</span>
               </h4>
               <h5 id="typewriter"><b>{currentText}</b></h5>
               <h6 className="lh-base text-dark-emphasis">
@@ -83,18 +80,9 @@ useEffect(() => {
                 something truly extraordinary.
               </h6>
             </div>
-            {/* <div className="col-lg-6 mt-3">
-              <div data-aos="zoom-in" className="bannerimg">
-                <img
-                  src={Bannerimg}
-                  className="img-fluid rounded-start"
-                  alt="landing-page"
-                />
-              </div>
-            </div> */}
-          </div>
+            </div>
         </div>
-      </section>
+      </section> 
 
 
 
@@ -105,7 +93,7 @@ useEffect(() => {
     =================================================*/}
 
      {/* Collaborative Creativity Section */}
-      <section id="collaborative" style={{marginTop:"100px"}}>
+      <section id="collaborative">
         <div
           data-aos="fade-right"
           data-aos-duration="1500"

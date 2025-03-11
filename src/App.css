@@ -163,57 +163,29 @@ h6 {
       Banner
 =================================*/
 .Homebanner {
+  background-image: url('./assets/img/HomeBanner.png'); 
+  background-size: cover;
+  background-position: center; 
+  background-repeat: no-repeat; 
   width: 100%;
-  height: 400px; 
-  overflow: hidden; 
-}
-.Homebanner img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover; 
-  display: block;
+  height: 70vh; 
 }
 
-#banners {
-margin-top: 85px;
-}
-
-#banners h4 .highlight{
-  color: #ff4a17;
-  font-size: 1.1em;
-}
-
-.highlight{
-color: #ff4a17;
-}
-
-
-.bannerimg {
-  height: 400px; 
-  overflow: hidden; /* Hide overflow if image is larger */
-}
-
-.bannerimg img {
-  /* Ensure the image fits within the container */
-  height: 100%;
-  width: 100%; /* Maintain aspect ratio */
+#HomeBanner .texttop{
+  margin-top: 13%;
 }
 
 
 
 @media only screen and (max-width: 991px) {
-  #banners {
-      margin-left: 5px;
-      margin-top: 50px;
-  }
-}
 
-@media only screen and (max-width: 430px) {
-
-    .bannerimg {
-      height: 270px; 
-      overflow: hidden; /* Hide overflow if image is larger */
+  /* #HomeBanner .Homebanner {
+    background-image: none; 
+  } */
+  #HomeBanner .texttop{
+   margin-top: 30%;
   }
+  
 }
 
 
@@ -313,9 +285,7 @@ color: #ff4a17;
     margin-top: 10px;
 } */
 
-@media only screen and (max-width: 430px) {
-   
-}
+
 
 
 /* ===============================
