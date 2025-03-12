@@ -155,7 +155,7 @@ useEffect(() => {
       <h2 className="text-center text-white mt-5 mb-5">About Us</h2>
       <div className="row">
       <div className="col-sm-4 mb-3">
-        <Card className="shadow-lg border h-100">
+        <Card className="shadow-lg border">
           <Card.Body>
             <Card.Title> Graphic Design </Card.Title>
             <Col xs={6} md={4}>
@@ -165,14 +165,14 @@ useEffect(() => {
               At Pooja Mishra, we bring ideas to life through 
               creative and impactful design. With a passion for visual storytelling, 
               we specialize in crafting unique brand identities that resonate with 
-              your audience.From logo design to digital illustrations,  ensuring every 
+              your audience. From logo design to digital illustrations,  ensuring every 
               project is a true reflection of your vision.
             </Card.Text>
           </Card.Body>
         </Card>
         </div>
         <div className="col-sm-4 mb-3">
-        <Card className="shadow-lg h-100">
+        <Card className="shadow-lg">
           <Card.Body>
             <Card.Title> Web Development </Card.Title>
             <Col xs={6} md={4}>
