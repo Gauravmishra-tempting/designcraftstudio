@@ -7,6 +7,25 @@ import { faMedal } from "@fortawesome/free-solid-svg-icons";
 import { faPenClip } from "@fortawesome/free-solid-svg-icons";
 import { faPlaneDeparture } from "@fortawesome/free-solid-svg-icons";
 import featureimgphoto3 from "../../assets/img/featureimgphoto3.png"
+import Pencile from "../../assets/img/pencile.svg";
+import VideoImg from "../../assets/img/videoimg.svg";
+import GraphicImg from "../../assets/img/graphic.svg";
+import HtmlImg from "../../assets/img/hmtlimg.jpg";
+import Rocket from "../../assets/img/rocket.jpg";
+import HandDraw from "../../assets/img/handdrawn.avif";
+import HTML from "../../assets/img/featureimge/html.svg";
+import CSS from "../../assets/img/featureimge/css.svg";
+import Javascript from "../../assets/img/featureimge/javascript.svg";
+import Bootstrap from "../../assets/img/featureimge/bootstrap.svg";
+import React from "../../assets/img/featureimge/react.svg";
+import Photoshop from "../../assets/img/featureimge/photoshop.svg";
+import Illustrator from "../../assets/img/featureimge/illustrator.svg";
+import Premiere from "../../assets/img/featureimge/premierepro.svg";
+import AfterEffect from "../../assets/img/featureimge/Aftereffect.svg";
+import Figma from "../../assets/img/featureimge/figma.svg";
+
+
+
 
 
 
@@ -42,6 +61,44 @@ const FeatureDesign  = () => {
        <section id="mydesigntext" className="py-5">
       <div className="container">
         <div className="row d-flex align-items-center">
+          <div className="text-center">
+        <img 
+        src={Pencile} 
+        alt="pencile"
+        className="img-fluid animated-img"
+        style={{width: "180px", height: "auto"}} 
+        />
+        <img 
+            src={VideoImg} 
+            alt="birdimg"
+            className="img-fluid animated-img"
+            style={{width: "250px", height: "auto"}} 
+        />
+        <img 
+            src={GraphicImg} 
+            alt="birdimg"
+            className="img-fluid animated-img"
+            style={{width: "180px", height: "auto"}} 
+        />
+        <img 
+            src={HtmlImg} 
+            alt="birdimg"
+            className="img-fluid animated-img"
+            style={{width: "180px", height: "auto"}} 
+        />
+        <img 
+            src={ Rocket} 
+            alt="birdimg"
+            className="img-fluid animated-img"
+            style={{width: "180px", height: "auto"}} 
+        />
+        <img 
+            src={HandDraw} 
+            alt="birdimg"
+            className="img-fluid animated-img"
+            style={{width: "180px", height: "auto"}} 
+        />
+        </div>
           {/* Text Column */}
           <div className="text-center text-md-start">
             <h2 className="mb-4 text-center mt-5">Empowering Creativity with Cutting-Edge Digital Solutions</h2>
@@ -63,7 +120,7 @@ const FeatureDesign  = () => {
             className="img-fluid mt-4"
             style={{ maxHeight: "700px", width: "auto" }}  />
           </div>
-        </div>
+        </div>    
       </div>
     </section>
 
@@ -76,7 +133,7 @@ const FeatureDesign  = () => {
   <div className="container">
       <h2 className="text-center text-white mt-5 mb-5">Web Development Services</h2>
       <div className="row">
-      <div className="col m b-3">
+      <div className="col-md-3 mb-3">
         <Card className="shadow-lg border">
           <Card.Body>
           <div style={{ display: "flex", justifyContent: "center", alignItems: "center", height: "100px" }}>
@@ -89,7 +146,7 @@ const FeatureDesign  = () => {
           </Card.Body>
         </Card>
         </div>
-        <div className="col mb-3">
+        <div className="col-md-3 mb-3">
         <Card className="shadow-lg">
           <Card.Body>
           <div style={{ display: "flex", justifyContent: "center", alignItems: "center", height: "100px" }}>
@@ -102,8 +159,8 @@ const FeatureDesign  = () => {
           </Card.Body>
         </Card>
         </div>
-        <div className="col mb-5">
-        <Card className="shadow-lg h-100">
+        <div className="col-md-3 mb-3">
+        <Card className="shadow-lg">
           <Card.Body>
           <div style={{ display: "flex", justifyContent: "center", alignItems: "center", height: "100px" }}>
               <FontAwesomeIcon
@@ -115,8 +172,8 @@ const FeatureDesign  = () => {
           </Card.Body>
         </Card>
         </div>
-        <div className="col mb-5">
-        <Card className="shadow-lg h-100">
+        <div className="col-md-3 mb-3">
+        <Card className="shadow-lg">
           <Card.Body>
           <div style={{ display: "flex", justifyContent: "center", alignItems: "center", height: "100px" }}>
               <FontAwesomeIcon
@@ -131,6 +188,107 @@ const FeatureDesign  = () => {
       </div>
     </div>
  </section>
+
+ {/* Our Work */}
+ <section id="ourwork" className="py-5">
+  <div className="container">
+    <h2 className="text-center mt-5 mb-5">Technical Skill</h2>
+    <div className="row d-flex justify-content-center">
+      <div className="col-6 col-md-4 col-lg-2 d-flex flex-column align-items-center">
+        <img 
+        src={HTML} 
+        alt="HTML" 
+        className="img-fluid" 
+        />
+        <h3 className="mt-2">HTML</h3>
+      </div>
+
+      <div className="col-6 col-md-4 col-lg-2 d-flex flex-column align-items-center">
+        <img 
+        src={CSS} 
+        alt="CSS" 
+        className="img-fluid" 
+        />
+        <h3 className="mt-2">CSS</h3>
+      </div>
+
+      <div className="col-6 col-md-4 col-lg-2 d-flex flex-column align-items-center">
+        <img 
+        src={Bootstrap}
+        alt="Bootstrap" 
+        className="img-fluid" 
+        />
+        <h3 className="mt-2">Bootstrap</h3>
+      </div>
+
+      <div className="col-6 col-md-4 col-lg-2 d-flex flex-column align-items-center">
+        <img 
+        src={Javascript} 
+        alt="JavaScript" 
+        className="img-fluid" 
+        />
+        <h3 className="mt-2">JavaScript</h3>
+      </div>
+
+      <div className="col-6 col-md-4 col-lg-2 d-flex flex-column align-items-center">
+        <img src={React} 
+        alt="React" 
+        className="img-fluid" 
+        style={{ maxHeight: "50px", width: "auto" }}
+        />
+        <h3 className="mt-2">React</h3>
+      </div>
+    </div>
+
+
+    <div className="row mt-5 d-flex justify-content-center">
+      <div className="col-6 col-md-4 col-lg-2 d-flex flex-column align-items-center">
+        <img 
+        src={Photoshop} 
+        alt="Photoshop"  
+        className="img-fluid" 
+        />
+        <h3 className="mt-2">Photoshop</h3>
+      </div>
+
+      <div className="col-6 col-md-4 col-lg-2 d-flex flex-column align-items-center">
+        <img 
+        src={Illustrator} 
+        alt="Illustrator" 
+        className="img-fluid" 
+        />
+        <h3 className="mt-2">Illustrator</h3>
+      </div>
+
+      <div className="col-6 col-md-4 col-lg-2 d-flex flex-column align-items-center">
+        <img 
+        src={Premiere} 
+        alt="Premiere" 
+        className="img-fluid" 
+        />
+        <h3 className="mt-2">Premiere Pro</h3>
+      </div>
+
+      <div className="col-6 col-md-4 col-lg-2 d-flex flex-column align-items-center">
+        <img 
+        src={AfterEffect} 
+        alt="AfterEffect" 
+        className="img-fluid" 
+        />
+        <h3 className="mt-2">AfterEffect</h3>
+      </div>
+
+      <div className="col-6 col-md-4 col-lg-2 d-flex flex-column align-items-center">
+        <img src={Figma} 
+        alt="figma" 
+        className="img-fluid" 
+        />
+        <h3 className="mt-2">Figma</h3>
+      </div>
+    </div>
+  </div>
+</section>
+
 
  
 

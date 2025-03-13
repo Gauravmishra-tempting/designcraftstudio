@@ -605,3 +605,19 @@ footer {
   ::-webkit-scrollbar-thumb:hover {
     background: #e56746; 
   }
+
+
+  @keyframes floatAnimation {
+    0% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+    100% { transform: translateY(0); }
+  }
+  
+  .animated-img {
+    animation: floatAnimation 2s infinite ease-in-out;
+  }
+
+
+
+
+  

@@ -1,7 +1,6 @@
 import React, {useState, useEffect } from "react";
 import Navbar from '../layout/Navbar';
 import Footer from "../layout/Footer";
-import Bannerimg from "../../assets/img/Bannerimg.png"
 import Aboutimg from "../../assets/img/about1.png"
 import Aboutimg2 from "../../assets/img/about2.png"
 import Aboutimg3 from "../../assets/img/about3.png";
@@ -11,7 +10,7 @@ import Card3 from "../../assets/img/card3.png";
 import Card from 'react-bootstrap/Card';
 import Col from 'react-bootstrap/Col';
 import Image from 'react-bootstrap/Image';
-import Banner from '../../assets/img/HomeBanner.png';
+
 
 
 
