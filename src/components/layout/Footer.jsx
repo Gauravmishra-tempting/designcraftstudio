@@ -10,9 +10,9 @@ const Footer = () => {
               Designed and Developed by Gaurav Mishra
             </div>
             <div className="col-sm-12 col-md-4 mb-3 mb-md-0">
-              © 2024 Copyright:
+              © 2024 Copyright :&nbsp;
               <a className="text-white text-decoration-none" href="#">
-                Gaurav Mishra
+                 Gaurav Mishra
               </a>
             </div>
             <div className="col-sm-12 col-md-4">

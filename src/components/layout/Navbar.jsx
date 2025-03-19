@@ -40,7 +40,7 @@ const Navbar = () => {
                   </a>
                   <ul className="dropdown-menu">
                     <li>
-                      <a className="dropdown-item" href="webdevelopment.html">
+                      <a className="dropdown-item" href="/Webdevelopment">
                         Web development
                       </a>
                     </li>

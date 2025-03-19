@@ -290,7 +290,18 @@ const FeatureDesign  = () => {
 </section>
 
 
- 
+{/*=====================================
+         videosection 
+  =====================================*/}
+
+  <section id="videosection" className="py-5">
+    <div className="container">
+      <h2 className="text-center mt-5 mb-5">🎥 Bringing Ideas to Life: Web, Video & Design Excellence</h2>
+      
+    </div>
+  </section>
+
+  
 
       <Footer/>
     </>
