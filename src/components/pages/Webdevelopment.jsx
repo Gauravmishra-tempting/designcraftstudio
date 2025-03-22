@@ -8,6 +8,7 @@ import Movieimg from '../../assets/img/webdevelopmentimg/movieimg.png'
 import Baelhealthimg from '../../assets/img/webdevelopmentimg/baelhealthimg.png'
 import Todolistimg from '../../assets/img/webdevelopmentimg/Todoimg.png'
 const Webdevelopment = () => {
+  
   return (
     <>
     <Navbar/>
@@ -24,7 +25,7 @@ const Webdevelopment = () => {
                     <div className="card-body">
                       <h5 className="card-title">Designcraftstudio</h5>
                       <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                      <a href="#" className="cardbtn p-2 rounded">Visit Site <i className="bi bi-arrow-right"></i></a>
+                      <a href="https://designcraftstudio-psi.vercel.app/" className="cardbtn p-2 rounded">Visit Site <i className="bi bi-arrow-right"></i></a>
                     </div>
                   </div>
             </div>
@@ -35,9 +36,9 @@ const Webdevelopment = () => {
                     alt="..."
                     />
                     <div className="card-body">
-                      <h5 className="card-title">Card title</h5>
+                      <h5 className="card-title">Weather App</h5>
                       <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                      <a href="#" className="cardbtn p-2 rounded">Visit Site <i className="bi bi-arrow-right"></i></a>
+                      <a href="https://weather-website-phi-inky.vercel.app/" className="cardbtn p-2 rounded">Visit Site <i className="bi bi-arrow-right"></i></a>
                     </div>
                   </div>
             </div>
@@ -48,9 +49,9 @@ const Webdevelopment = () => {
                     alt="..."
                     />
                     <div className="card-body">
-                      <h5 className="card-title">Card title</h5>
+                      <h5 className="card-title">Calculator</h5>
                       <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                      <a href="#" className="cardbtn p-2 rounded">Visit Site <i className="bi bi-arrow-right"></i></a>
+                      <a href="https://calculator-gamma-wine-27.vercel.app/" className="cardbtn p-2 rounded">Visit Site <i className="bi bi-arrow-right"></i></a>
                     </div>
                   </div>
             </div>
@@ -63,9 +64,9 @@ const Webdevelopment = () => {
                     alt="..."
                     />
                     <div className="card-body">
-                      <h5 className="card-title">Card title</h5>
+                      <h5 className="card-title">Movie App</h5>
                       <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                      <a href="#" className="cardbtn p-2 rounded">Visit Site <i className="bi bi-arrow-right"></i></a>
+                      <a href="https://movie-app-opal-rho.vercel.app/" className="cardbtn p-2 rounded">Visit Site <i className="bi bi-arrow-right"></i></a>
                     </div>
                   </div>
             </div>
@@ -76,9 +77,9 @@ const Webdevelopment = () => {
                     alt="..."
                     />
                     <div className="card-body">
-                      <h5 className="card-title">Card title</h5>
+                      <h5 className="card-title">Bael Health</h5>
                       <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                      <a href="#" className="cardbtn p-2 rounded">Visit Site <i className="bi bi-arrow-right"></i></a>
+                      <a href="https://baelhealth.vercel.app/" className="cardbtn p-2 rounded">Visit Site <i className="bi bi-arrow-right"></i></a>
                     </div>
                   </div>
             </div>
@@ -90,9 +91,9 @@ const Webdevelopment = () => {
                     alt="..."
                     />
                     <div className="card-body">
-                      <h5 className="card-title">Card title</h5>
+                      <h5 className="card-title">To Do List</h5>
                       <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                      <a href="#" className="cardbtn p-2 rounded">Visit Site <i className="bi bi-arrow-right"></i></a>
+                      <a href="https://to-do-app-peach-tau.vercel.app/" className="cardbtn p-2 rounded">Visit Site <i className="bi bi-arrow-right"></i></a>
                     </div>
                   </div>
             </div>

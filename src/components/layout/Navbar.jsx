@@ -35,7 +35,7 @@ const Navbar = () => {
                   </a>
                 </li>
                 <li className="nav-item dropdown">
-                  <a className="nav-link text-white me-2" href="#">
+                  <a className="nav-link text-white me-2" href="">
                     Our work <i className="bi bi-chevron-down"></i>
                   </a>
                   <ul className="dropdown-menu">
@@ -45,12 +45,12 @@ const Navbar = () => {
                       </a>
                     </li>
                     <li>
-                      <a className="dropdown-item" href="graphicdesign.html">
+                      <a className="dropdown-item" href="/Graphics">
                         Graphic Design
                       </a>
                     </li>
                     <li>
-                      <a className="dropdown-item" href="videoediting.html">
+                      <a className="dropdown-item" href="/VideoEditing">
                         Video Editing
                       </a>
                     </li>
@@ -58,10 +58,10 @@ const Navbar = () => {
                 </li>
               </ul>
               <div className="createbtn mb-3 mt-3">
-                <a href="login.html" className="active me-2 p-2 rounded">
+                <a href="/login" className="active me-2 p-2 rounded">
                   Login
                 </a>
-                <a href="./signin.html" className="active p-2 rounded">
+                <a href="/signin" className="active p-2 rounded">
                   Sign Up
                 </a>
               </div>

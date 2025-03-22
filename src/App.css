@@ -6,6 +6,8 @@
     box-sizing: border-box;
 }
 
+
+
 body {
     font-family: "Poppins", sans-serif;
 }
@@ -479,6 +481,7 @@ footer {
   display: flex; 
   flex-direction: column;
 }
+
 
 
 /* ===============================

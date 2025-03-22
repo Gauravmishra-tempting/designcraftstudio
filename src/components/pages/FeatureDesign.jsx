@@ -23,6 +23,8 @@ import Illustrator from "../../assets/img/featureimge/illustrator.svg";
 import Premiere from "../../assets/img/featureimge/premierepro.svg";
 import AfterEffect from "../../assets/img/featureimge/Aftereffect.svg";
 import Figma from "../../assets/img/featureimge/figma.svg";
+import ReactPlayer from "react-player";
+
 
 
 
@@ -297,7 +299,11 @@ const FeatureDesign  = () => {
   <section id="videosection" className="py-5">
     <div className="container">
       <h2 className="text-center mt-5 mb-5">🎥 Bringing Ideas to Life: Web, Video & Design Excellence</h2>
-      
+      <ReactPlayer
+              url="https://youtu.be/yey2fBaPh2g"
+              controls
+              width="100%"
+            />
     </div>
   </section>
 
