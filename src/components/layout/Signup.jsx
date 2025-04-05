@@ -52,7 +52,7 @@ const Signup = () => {
       
                         <div className="d-flex align-items-center justify-content-center pb-4">
                           <p className="mb-0 me-2">Do You have an account?</p>
-                          <a href="login.html"><button  type="button" data-mdb-button-init data-mdb-ripple-init className="btn btn-outline-danger">Login</button></a>
+                          <a href="/login"><button  type="button" data-mdb-button-init data-mdb-ripple-init className="btn btn-outline-danger">Login</button></a>
                         </div>
       
                       </form>

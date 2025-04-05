@@ -69,7 +69,7 @@ const Login = () => {
                         {/* Create Account Section */}
                         <div className="d-flex align-items-center justify-content-center pb-4">
                           <p className="mb-0 me-2">Don't have an account?</p>
-                          <Link to="/signup">
+                          <Link to="/signin">
                             <button type="button" className="btn btn-outline-danger">
                               Create new
                             </button>
