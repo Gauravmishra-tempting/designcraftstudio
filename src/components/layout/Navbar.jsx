@@ -30,7 +30,7 @@ const Navbar = () => {
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="/Featuredesign">
+                  <a className="nav-link" href="/featuredesign">
                     Features
                   </a>
                 </li>
@@ -40,17 +40,17 @@ const Navbar = () => {
                   </a>
                   <ul className="dropdown-menu">
                     <li>
-                      <a className="dropdown-item" href="/Webdevelopment">
+                      <a className="dropdown-item" href="/webdevelopment">
                         Web development
                       </a>
                     </li>
                     <li>
-                      <a className="dropdown-item" href="/Graphics">
+                      <a className="dropdown-item" href="/graphics">
                         Graphic Design
                       </a>
                     </li>
                     <li>
-                      <a className="dropdown-item" href="/VideoEditing">
+                      <a className="dropdown-item" href="/videoEditing">
                         Video Editing
                       </a>
                     </li>

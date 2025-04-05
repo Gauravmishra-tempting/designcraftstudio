@@ -8,7 +8,7 @@ const Login = () => {
   return (
     <>
       <Navbar />
-      <section className="h-100 gradient-form">
+      <section className="h-100 gradient-form main-content">
         <div className="container py-5 h-100" style={{ marginTop: "100px" }}>
           <div className="row d-flex justify-content-center align-items-center h-100">
             <div className="col-xl-10">

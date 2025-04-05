@@ -22,10 +22,10 @@ function App() {
       <Route path="/" element={<Home />} />
       <Route path="/login" element={<Login />} />
       <Route path="/signin" element={<Signup />} />
-      <Route path="/Featuredesign" element={<FeatureDesign />} />
-      <Route path="/Webdevelopment" element={<Webdevelopment />} />
-      <Route path="/Graphics" element={<Graphics />} />
-      <Route path="/VideoEditing" element={<VideoEditing />} />
+      <Route path="/featuredesign" element={<FeatureDesign />} />
+      <Route path="/webdevelopment" element={<Webdevelopment />} />
+      <Route path="/graphics" element={<Graphics />} />
+      <Route path="/videoEditing" element={<VideoEditing />} />
       {/* <Route path="/graphicdesign" element={<GraphicDesign />} /> */}
     </Routes>
     </BrowserRouter>

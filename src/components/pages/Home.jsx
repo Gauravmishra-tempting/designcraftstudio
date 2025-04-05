@@ -244,7 +244,7 @@ useEffect(() => {
                     creative graphic design.
                   </p>
                   <a
-                    href="graphicdesign.html"
+                    href="/graphics"
                     className="cardbtn p-2 rounded"
                   >
                     View Work <i className="bi bi-arrow-right"></i>
@@ -266,7 +266,7 @@ useEffect(() => {
                   Boost your online presence with a user-friendly website. Visit us for expert web development.
                   </p>
                   <a
-                    href="graphicdesign.html"
+                    href="/webdevelopment"
                     className="cardbtn p-2 rounded"
                   >
                     View Work <i className="bi bi-arrow-right"></i>
@@ -288,7 +288,7 @@ useEffect(() => {
                   Turn footage into compelling stories. Visit us for professional video editing.
                   </p>
                   <a
-                    href="graphicdesign.html"
+                    href="/videoEditing"
                     className="cardbtn p-2 rounded"
                   >
                     View Work <i className="bi bi-arrow-right"></i>
