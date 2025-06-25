@@ -5,6 +5,7 @@ import Loader from './components/loader/Loader';
 
 const Home = lazy(() => import("./components/pages/Home"));
 const FeatureDesign = lazy(() => import("./components/pages/FeatureDesign"));
+const CustomCursor = lazy(() => import("./components/pages/Customcursor"))
 
 const Webdevelopment = lazy(() => import("./components/pages/Webdevelopment"));
 const Graphics = lazy(() => import("./components/pages/Graphics"));
@@ -18,6 +19,7 @@ function App() {
   return (
    <Suspense fallback={<Loader/>}>
     <BrowserRouter>
+    <CustomCursor/>
     <Routes>
       <Route path="/" element={<Home />} />
       <Route path="/login" element={<Login />} />
