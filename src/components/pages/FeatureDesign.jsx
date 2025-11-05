@@ -126,10 +126,9 @@ const FeatureDesign  = () => {
       </div>
     </section>
 
-{/* 
-  <!-- ===============================================
-                 Web development 
- =================================================== --> */}
+{/* ===========================================
+                 Web Development 
+=============================================== */}
 
  <section id="webdevelopment" className='backgroundcolor p-5 mt-5'>
   <div className="container">
@@ -191,7 +190,10 @@ const FeatureDesign  = () => {
     </div>
  </section>
 
- {/* Our Work */}
+ {/*====================================
+              Our Work 
+  ======================================*/}
+
  <section id="ourwork" className="py-5">
   <div className="container">
     <h2 className="text-center mt-5 mb-5">Technical Skill</h2>
@@ -293,7 +295,7 @@ const FeatureDesign  = () => {
 
 
 {/*=====================================
-         videosection 
+               videosection 
   =====================================*/}
 
   <section id="videosection" className="py-5">
