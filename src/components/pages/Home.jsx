@@ -91,6 +91,7 @@ useEffect(() => {
         Collaborative Creativity Section 
     =================================================*/}
 
+
      {/* Collaborative Creativity Section */}
       <section id="collaborative">
         <div
@@ -144,8 +145,8 @@ useEffect(() => {
         </div>
       </section>
 
-      {/*=================================================
-               About section 
+  {/*=================================================
+                     About section 
    ================================================*/}
 
 
@@ -224,7 +225,11 @@ useEffect(() => {
 
     
 
-      {/* Card Content Section */}
+      {/*===================================
+               Card Content Section 
+       =====================================*/}
+
+
       <section id="cardcontent" style={{marginTop:"100px"}}>
         <div data-aos="fade-up" data-aos-duration="1500" className="container">
           <h2 className="text-center mt-5 mb-5">Services</h2>
